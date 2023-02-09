@@ -5,7 +5,9 @@
 ## a) Niveau facile
 
     Quel est le nombre total d'objets Album contenus dans la base (sans regarder les id bien sûr) ?
-    =>  ```Album.all.count```
+    ```
+    Album.all.count
+    ```
 
     Qui est l'auteur de la chanson "White Room" ?
     => ```Track.find_by(title: "White Room").artist```
