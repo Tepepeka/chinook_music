@@ -1,16 +1,16 @@
 # README
 
-* * Maintenant que ta BDD est prête, tu vas répondre aux questions ci-dessous :
+Maintenant que ta BDD est prête, tu vas répondre aux questions ci-dessous :
 
 ## a) Niveau facile
 
-    Quel est le nombre total d'objets Album contenus dans la base (sans regarder les id bien sûr) ?
-    ```
-    Album.all.count
-    ```
+Quel est le nombre total d'objets Album contenus dans la base (sans regarder les id bien sûr) ?
+```
+Album.all.count
+```
 
-    Qui est l'auteur de la chanson "White Room" ?
-    => ```Track.find_by(title: "White Room").artist```
+Qui est l'auteur de la chanson "White Room" ?
+=> ```Track.find_by(title: "White Room").artist```
 
     Quelle chanson dure exactement 188133 milliseconds ?
     => ```Track.find_by(duration: 188133)```
